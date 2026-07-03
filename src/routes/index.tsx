@@ -13,7 +13,7 @@ function Index() {
   return (
     <main className="min-h-screen" style={{ fontFamily: '"Inter", sans-serif' }}>
       <Hero />
-      <section className="bg-[#f5f1e8] min-h-[40vh]" aria-hidden />
+      <FeaturedProjects />
     </main>
   );
 }
