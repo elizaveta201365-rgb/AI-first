@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Hero } from "@/components/Hero";
 import { FeaturedProjects } from "@/components/FeaturedProjects";
+import { WhatIDo } from "@/components/WhatIDo";
 
 // No head() here: the home route inherits title/description/og/twitter from
 // __root.tsx, and ships no og:image so serve-time hosting can inject the
@@ -14,6 +15,7 @@ function Index() {
     <main className="min-h-screen" style={{ fontFamily: '"Inter", sans-serif' }}>
       <Hero />
       <FeaturedProjects />
+      <WhatIDo />
     </main>
   );
 }
