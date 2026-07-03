@@ -15,6 +15,7 @@ function Index() {
     <main className="min-h-screen" style={{ fontFamily: '"Inter", sans-serif' }}>
       <Hero />
       <FeaturedProjects />
+      <WhatIDo />
     </main>
   );
 }
