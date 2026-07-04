@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { FeaturedProjects } from "@/components/FeaturedProjects";
 import { WhatIDo } from "@/components/WhatIDo";
 import { HowIWork } from "@/components/HowIWork";
+import { CTA } from "@/components/CTA";
 
 // No head() here: the home route inherits title/description/og/twitter from
 // __root.tsx, and ships no og:image so serve-time hosting can inject the
@@ -18,6 +19,7 @@ function Index() {
       <FeaturedProjects />
       <WhatIDo />
       <HowIWork />
+      <CTA />
     </main>
   );
 }
