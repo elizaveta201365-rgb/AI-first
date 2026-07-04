@@ -54,16 +54,11 @@ export function Hero() {
               className="mt-6 font-display text-hero-ink"
               style={{ fontSize: "clamp(2.5rem, 7vw, 5.5rem)", lineHeight: 1.02, letterSpacing: "-0.02em" }}
             >
-              Создаю
-              <br />
-              <span className="italic text-hero-green">AI-продукты</span>
-              <br />
-              через вайбкодинг
+              Делаю <span className="italic text-hero-green">AI-продукты</span> нового поколения
             </h1>
 
             <p className="mt-6 max-w-md text-base sm:text-lg leading-relaxed text-hero-ink-soft">
-              Быстро собираю MVP, лендинги и веб-приложения с помощью
-              современных AI-инструментов.
+              Разрабатываю MVP, лендинги и веб-приложения с использованием AI и вайбкодинга — быстро, гибко и без лишней разработки.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
