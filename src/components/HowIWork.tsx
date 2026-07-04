@@ -35,7 +35,7 @@ const steps = [
 
 export function HowIWork() {
   return (
-    <section className="bg-hero-cream py-20 sm:py-28">
+    <section className="bg-hero-cream py-10 sm:py-14">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="mb-14 sm:mb-20">
           <span className="inline-flex items-center gap-2 rounded-full bg-white/60 backdrop-blur px-3 py-1 text-xs font-medium uppercase tracking-widest text-hero-ink-soft">
