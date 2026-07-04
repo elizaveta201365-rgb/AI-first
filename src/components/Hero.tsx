@@ -41,7 +41,7 @@ export function Hero() {
       </header>
 
       {/* Main content */}
-      <div className="relative z-10 mx-auto max-w-7xl px-5 pt-12 pb-40 sm:px-8 sm:pt-16 lg:pt-24 lg:pb-56">
+      <div className="relative z-10 mx-auto max-w-7xl px-5 pt-12 pb-20 sm:px-8 sm:pt-16 lg:pt-24 lg:pb-28">
         <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:gap-8 lg:items-center">
           {/* Left */}
           <div className="min-w-0">
