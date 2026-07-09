@@ -1,4 +1,4 @@
-import { Send, Mail } from "lucide-react";
+import { Send } from "lucide-react";
 
 export function CTA() {
   return (
@@ -72,13 +72,6 @@ export function CTA() {
           >
             <Send className="h-4 w-4" />
             Написать в Telegram
-          </a>
-          <a
-            href="mailto:hello@example.com"
-            className="group inline-flex items-center justify-center gap-2 rounded-full bg-hero-coral px-6 py-3.5 text-sm font-semibold text-white shadow-[0_12px_30px_-10px_rgba(232,146,124,0.7)] hover:bg-hero-coral-hover hover:-translate-y-0.5 transition-all"
-          >
-            <Mail className="h-4 w-4" />
-            Написать на Email
           </a>
         </div>
       </div>
