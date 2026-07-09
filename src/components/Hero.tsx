@@ -49,7 +49,7 @@ export function Hero() {
               className="mt-6 font-display text-hero-ink"
               style={{ fontSize: "clamp(2.5rem, 7vw, 5.5rem)", lineHeight: 1.02, letterSpacing: "-0.02em" }}
             >
-              Делаю <span className="italic text-hero-green">AI-продукты</span> нового поколения
+              Делаю <span className="italic text-hero-green whitespace-nowrap">AI-продукты</span> нового поколения
             </h1>
 
             <p className="mt-6 max-w-md text-base sm:text-lg leading-relaxed text-hero-ink-soft">
