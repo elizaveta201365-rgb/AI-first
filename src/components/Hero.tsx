@@ -26,12 +26,7 @@ export function Hero() {
 
       {/* Nav */}
       <header className="relative z-10 mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 pt-6 sm:px-8 sm:pt-8">
-        <div className="flex min-w-0 items-center gap-2">
-          <div className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-hero-ink text-white font-display text-lg">
-            v
-          </div>
-          <span className="truncate font-display text-xl text-hero-ink">vibe.dev</span>
-        </div>
+        <div />
         <a
           href="#contact"
           className="shrink-0 rounded-full border border-hero-ink/20 bg-white/50 backdrop-blur px-4 py-2 text-sm font-medium text-hero-ink hover:bg-white/80 transition-colors"
