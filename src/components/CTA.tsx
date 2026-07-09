@@ -65,7 +65,7 @@ export function CTA() {
 
         <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
           <a
-            href="https://t.me/"
+            href="https://t.me/ElizaLubi"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center justify-center gap-2 rounded-full bg-hero-green px-6 py-3.5 text-sm font-semibold text-white shadow-[0_12px_30px_-10px_rgba(45,90,74,0.6)] hover:bg-hero-green-hover hover:-translate-y-0.5 transition-all"
